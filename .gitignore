@@ -1,0 +1,35 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== Django =====
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+
+# ===== 敏感配置文件（不要提交到仓库）=====
+djangoproject/local_settings.py
+mysql.ini
+.env
+.env.*
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+
+# ===== Node / Vue =====
+node_modules/
+dist/
+dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.local
